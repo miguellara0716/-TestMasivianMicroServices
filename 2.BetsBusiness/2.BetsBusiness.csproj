@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_2.BetsBusiness</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\3.BetsDataAccess\3.BetsDataAccess.csproj" />
+    <ProjectReference Include="..\4.BetsBusinessEntities\4.BetsBusinessEntities.csproj" />
+  </ItemGroup>
+
+</Project>

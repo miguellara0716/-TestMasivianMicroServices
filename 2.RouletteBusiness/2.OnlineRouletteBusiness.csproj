@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_2.OnlineRouletteBusiness</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\3.RouletteDataAccess\3.OnlineRouletteDataAccess.csproj" />
+    <ProjectReference Include="..\4.BetsBusinessEntities\4.BetsBusinessEntities.csproj" />
+    <ProjectReference Include="..\4.RouletteBusinessEntities\4.OnlineRouletteBusinessEntities.csproj" />
+  </ItemGroup>
+
+</Project>

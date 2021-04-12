@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_3.OnlineRouletteDataAccess</RootNamespace>
+    <AssemblyName>3.OnlineRouletteDataAccess</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="ServiceStack.Redis.Core" Version="5.10.4" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\4.BetsBusinessEntities\4.BetsBusinessEntities.csproj" />
+    <ProjectReference Include="..\4.RouletteBusinessEntities\4.OnlineRouletteBusinessEntities.csproj" />
+  </ItemGroup>
+
+</Project>

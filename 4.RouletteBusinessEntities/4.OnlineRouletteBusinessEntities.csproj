@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_4.OnlineRouletteBusinessEntities</RootNamespace>
+    <AssemblyName>4.OnlineRouletteBusinessEntities</AssemblyName>
+  </PropertyGroup>
+
+</Project>
