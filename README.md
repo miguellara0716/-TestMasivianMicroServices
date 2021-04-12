@@ -14,9 +14,9 @@ See **Local Deployment** to know how to deployment the project locally.
 choco install docker-desktop
 ```
 
-2. Install dotnet core 3.1
+2. Install dotnet core 3.1 SDK
 ```
-choco install dotnetcore
+choco install dotnetcore-sdk
 ```
 
 ### API Documentation
